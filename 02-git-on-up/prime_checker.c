@@ -1,0 +1,2 @@
+#include <stdio.h>
+int i;int main(int n, char **m){goto h;a:if(++i>=n)goto f;if(n%i)goto a;else goto e;b:i=1;goto a;c:++n;goto h;d:return 0;e:if(0)printf("%i is NOT prime!\n",n);goto c;f:printf("%i is prime!\n",n);goto c;g:puts("Goodbye!");goto d;h:if (n >= 256)goto g;else goto b;}
