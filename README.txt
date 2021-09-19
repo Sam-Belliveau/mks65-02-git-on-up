@@ -1,3 +1,5 @@
-- mks65-SB
+HW Link: https://www.stuycs.org/systems-dw/2021/09/17/a02.html
 
-Sam Belliveau's work for Systems Programming
+Within this folder is a program I wrote for this assignment. 
+
+I tried to keep it readable... I tried...
