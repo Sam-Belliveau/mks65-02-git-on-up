@@ -29,6 +29,7 @@
 #define say printf(
 #define successfully 0
 #define the_biggest_number 256
+#define the_first_factor 1
 #define then )
 #define to =
 #define when if(
@@ -70,13 +71,13 @@ make prime_checker(number the_number, words message) {
 
     // We are going to check to see if the_number is prime
     // So we must reset the factor number so that it can check all the factors
-    factor to 1 please
+    factor to the_first_factor please
     goto check_next_factor please
 
     do_it_again:
 
     // We can run the program again with the next number
-    prime_checker(the_number + 1, message) please
+    prime_checker(next the_number, message) please
 
     // When we get here, that means that the program is finished
     goto finish please
